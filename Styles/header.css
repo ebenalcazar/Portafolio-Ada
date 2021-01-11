@@ -4,7 +4,11 @@ header {
   hr {
     border: 0; 
     height: 0; 
-    box-shadow: 0 1px 5px 1px rgb(219, 205, 207);}
+    box-shadow: 0 1px 8px 1px rgb(219, 205, 207);}
+ul{
+    padding-right: 100px;
+}
+
 li{
     list-style: none;
 }

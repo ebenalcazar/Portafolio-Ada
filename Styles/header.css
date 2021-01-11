@@ -1,0 +1,22 @@
+header {
+    background-color: white;
+  }
+  hr {
+    border: 0; 
+    height: 0; 
+    box-shadow: 0 1px 5px 1px rgb(219, 205, 207);}
+li{
+    list-style: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-li {
+    padding: 20px;
+  }
+  .boton{
+      background-color: pink;
+      border-radius: 30px;
+
+  }

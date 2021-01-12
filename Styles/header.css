@@ -1,26 +1,33 @@
 header {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0%;
     background-color: white;
+    
   }
   hr {
     border: 0; 
     height: 0; 
-    box-shadow: 0 1px 8px 1px rgb(219, 205, 207);}
-ul{
-    padding-right: 100px;
-}
+    box-shadow: 0 1px 8px 1px rgb(240, 186, 228);}
+
 
 li{
     list-style: none;
+    
+}
+ul{
+    padding-right: 200px;
 }
 .nav-menu{
     display: flex;
     justify-content: flex-end;
 }
 .nav-li {
-    padding: 20px;
+    padding: 10px;
   }
   .boton{
-      background-color: pink;
+      background-color:#FF63E3;
       border-radius: 30px;
 
   }

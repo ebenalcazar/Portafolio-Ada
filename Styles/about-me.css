@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px 50px 0px;
+    padding: 110px 80px 130px;
+}
+
+.div-saludo{
+    padding-right: 200px;
+}
+
+.saludo{
+    font-size: 30px;
+    color: #2e2e31;
+    margin: 0 0 5px;
+}
+h1{
+    color: #FF63E3;
+    font-size: 60px;
+}
+.about-description{
+    font-size: 16px;
+    color: #616161;
+    margin: 16px 0px 40px;
+}
+img{
+    display: block;
+    width: 100%;
+}

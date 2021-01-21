@@ -16,6 +16,10 @@ li{
     list-style: none;
     
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 ul{
     padding-right: 200px;
 }
@@ -27,7 +31,7 @@ ul{
     padding: 10px;
   }
   .boton{
-      background-color:#FF63E3;
+      background-color:#f77de0;
       border-radius: 30px;
 
   }

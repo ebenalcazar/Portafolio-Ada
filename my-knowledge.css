@@ -50,5 +50,16 @@ p{
 
     
 }
+.quote{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #F77DE0; 
+    color: white;
+    margin: 0%;
+    padding: 25%;
+}
 
 

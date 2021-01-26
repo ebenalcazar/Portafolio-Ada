@@ -1,0 +1,13 @@
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.project {
+    margin: 0.75em;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 20px;
+  }

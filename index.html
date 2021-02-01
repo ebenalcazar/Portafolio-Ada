@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="Styles/about-me.css">
     <link rel="stylesheet" href="Styles/my-skills.css">
     <link rel="stylesheet" href="Styles/my-projects.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link rel="stylesheet" href="Styles/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
@@ -18,11 +20,15 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
       *{font-family: Montserrat, sans-serif;}
+      a:link, a:visited, a:active {
+            text-decoration:none;
+
+        }
        
     </style>
     
 </head>
-<body>
+<body class="right-shadow">
     <!-- Inicio Header -->
     <header>
         <div>
@@ -30,16 +36,16 @@
                 <!-- Menú de navegación -->
                 <ul class="nav-menu">
                     <li class="nav-li">
-                        <a href="#sobre-mi">HOLA</a>
+                        <a class="a-header nav-link" href="#sobre-mi">HOLA</a>
                     </li>
                     <li class="nav-li">
-                        <a href="#conocimientos">CONOCIMIENTOS</a>
+                        <a class="a-header nav-link" href="#conocimientos">CONOCIMIENTOS</a>
                     </li>
                     <li class="nav-li">
-                        <a href="#proyectos">PROYECTOS</a>
+                        <a class="a-header nav-link" href="#proyectos">PROYECTOS</a>
                     </li>
-                    <li class="nav-li boton">
-                        <a href="#contacto">CONTACTO</a>
+                    <li class="nav-li">
+                        <a class="boton nav-link" href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
                 <!-- Fin del Menú de navegación -->
@@ -60,7 +66,11 @@
                         ¡Hola! Soy
                     </p>
                     <h1> Elena Benalcázar</h1>
-                    <p class="about-description"> Desarrolladora, Profesional de Hotelería y Turismo, Amante de los idiomas </p>
+                    <p class="about-description"> 
+                        Desarrolladora Frontend, profesional de hotelería y turismo, amante de los idiomas y las matemáticas
+                    </p>
+                    <br>
+                    <a class="boton-projects" href="#proyectos">LO QUE HAGO</a>
                 </div>
                 <div>
                     <img src="Images/undraw_proud_coder_7ain.svg" alt="">
@@ -75,14 +85,17 @@
                 <div class="titulo">
                     <h2>Mis Conocimientos</h2>
                     <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti laboriosam veritatis amet fuga hic velit dolor obcaecati distinctio! Maxime porro ea cum nulla illo obcaecati. Similique fugit ratione et maiores.
+                        Estos son mis conocimientos actualmente, pero estoy en constante actualización.
+                        Me apasiona adquirir nuevas habilidades.
+                        Además manejo Frameworks como AngularJs, React,
+                        Responsive web design, pruebas funcionales, de integración y aceptación.
                     </p>
                 </div>
                 <br>
                 <br>
                 <br>
                 <div class="grilla">
-                    <div class="arriba skill icon">
+                    <div class="skill icon">
                         <i class="devicon-html5-plain colored"></i> 
                         <p>HTML 5</p>
                     </div>
@@ -115,75 +128,298 @@
             <section class="quote">
                 <div class="contenido">
                     <i class="fas fa-quote-right fa-5x"></i>
-                    <br> <br> <br> <br> <br> <br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, itaque neque quam est molestias blanditiis commodi, doloremque quia facere aliquid laborum accusamus rem suscipit soluta beatae error dolores ipsam aperiam.
+                    <br><br><br><br><br>
+                    <p class="quote-text">
+                        Nuestra mayor debilidad radica en renunciar. <br>
+                        La forma más segura de tener éxito es <br>
+                        siempre intentarlo una vez más
                     </p>
-                    <br> <br> <br> <br> 
-                    <h2>Someone</h2>
+                    <br><br><br>
+                    <h2>Thomas A. Edison</h2>
                 </div>
-
-
             </section>
-
-
-
-
             <!-- Fin Sección Quote -->
             <!-- Inicio sección Mis Proyectos -->
+            <a name="proyectos"></a>
             <section class="proyectos">
-                <div class="description">
+                <div>
                     <h2> Mis Proyectos</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam ab quos est laborum. Voluptatibus culpa suscipit, exercitationem deserunt error porro, veniam a fuga tenetur est harum rem laboriosam corrupti?
+                    <p class="p-proyectos">
+                        Estos son algunos de los proyectos que he desarrollado y me encantan los retos!
                     </p>
                 </div>
                 <!-- Inicio Grilla Mis Proyectos -->
                 
 
-                    <div class="grilla">
-                        <div class="project">
-                            <img src="Images/Portafolio.jpg" alt="Portafolio">
-                            <p>Portafolio</p>
-                        </div>
-                        <div class="project">
-                            <img src="Images/undraw_mobile_user_7oqo.svg" alt="Generador de memes">
-                            <p>Generador de memes</p>
-                        </div>
-                        <div class="project">
-                            <img src="Images/undraw_old_day_6x25.svg" alt="Match 3">
-                            <p>Match 3</p>
-                        </div>
-                        <div class="project">
-                            <img src="/Images/undraw_wallet_aym5.svg" alt="Controlador de Gastos">
-                            <p>Controlador de Gastos</p>
-                        </div>
-                        <div class="project">
-                            <img src="/Images/undraw_calendar_dutt.svg" alt="Administrador de Reuniones">
-                            <p>Administrador de Reuniones</p>
-                        </div>
-                        <div class="project">
-                            <img src="/Images/undraw_checking_boxes_2ibd.svg" alt="Todo app">
-                            <p>Todo app</p>
-                        </div>
-                        <div class="project">
-                            <img src="/Images/undraw_movie_night_fldd.svg" alt="Buscador de películas">
-                            <p>Buscador de películas</p>
-                        </div>
+                    <div class="grilla-proyectos">
+
+                        
+                            <div class="project">
+                                <img class="img-project" src="Images/Portafolio.jpg" alt="Portafolio">
+                                <p class="project-name">Portafolio</p>
+                            </div>
+                            <div class="project">
+                                <img class="img-project" src="Images/undraw_mobile_user_7oqo.svg" alt="Generador de memes">
+                                <p class="project-name">Generador de memes</p>
+                            </div>
+                            <div class="project">
+                                <img class="img-project" src="Images/undraw_old_day_6x25.svg" alt="Match 3">
+                                <p class="project-name">Match 3</p>
+                            </div>
                         
                         
-                        
-                        
-                        
-                        
+                            <div class="project">
+                                <img class="img-project" src="/Images/undraw_wallet_aym5.svg" alt="Controlador de Gastos">
+                                <p class="project-name">Controlador de Gastos</p>
+                            </div>
+                            <div class="project">
+                                <img class="img-project" src="/Images/undraw_calendar_dutt.svg" alt="Administrador de Reuniones">
+                                <p class="project-name">Administrador de Reuniones</p>
+                            </div>
+                            <div class="project">
+                                <img class="img-project" src="/Images/undraw_checking_boxes_2ibd.svg" alt="Todo app">
+                                <p class="project-name">Todo app</p>
+                            </div>
+                            <div class="project">
+                                <img src="/Images/undraw_movie_night_fldd.svg" alt="Buscador de películas">
+                                <p class="project-name">Buscador de películas</p>
+                            </div>
                         
                     </div>
             </section>
             <!-- Fin Grilla Mis Proyectos -->
 
+            <!-- Inicio Sección Contacto -->
+            <a name="contacto"></a>
+            <section  class="contact">
+                <!-- Inicio div de la Izquierda -->
+                <div class="columna-contacto">
+                   
+                    <div>
+                        <!-- Inico de la primera parte izquierda arriba -->
+                        <h2>
+                            Contactame
+                        </h2>
+                        <p class="p-descripcion-contacto">
+                            Siempre estoy disponible! Si tienes un proyecto que te gustaría ver hecho realidad, tomemos un café y charlemos al respecto.
+                        </p>
+                        <!-- Fin de la primera parte izquierda arriba -->
+                        <!-- Inico de la segunda parte izquierda abajo -->
+                        <div>
+                            <ul>
+                                <li>
+                                    <a
+                                    href="https://twitter.com/ElenaBenalcazar"target="_blank"
+                                        class="contact-social-link"
+                                        aria-label="Twitter"
+                                    >
+                                        <i
+                                        aria-hidden="true"
+                                        class="fab fa-twitter contact-social-icon"
+                                        ></i
+                                        >@ElenaBenalcazar</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                    href="https://github.com/ebenalcazar"target="_blank"
+                                        class="contact-social-link"
+                                        aria-label="Github"
+                                    >
+                                        <i
+                                        aria-hidden="true"
+                                        class="fab fa-github-alt contact-social-icon"
+                                        ></i
+                                        >ebenalcazar</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                    href="https://www.linkedin.com/in/elena-benalcazar-rodas-6b51673b/"target="_blank"
+                                        class="contact-social-link"
+                                        aria-label="Linkedin"
+                                    >
+                                        <i
+                                        aria-hidden="true"
+                                        class="fab fa-linkedin-in contact-social-icon"
+                                        ></i
+                                        >Elena Benalcazar Rodas</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="mailto:elena_benalcazar_rodas@hotmail.com"
+                                        class="contact-social-link"
+                                        aria-label="Email"
+                                    >
+                                        <i
+                                        aria-hidden="true"
+                                        class="fas fa-envelope contact-social-icon"
+                                        ></i
+                                        >oebr@outlook.com.ar</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                            <!-- Fin de la primera parte abajo izquierda -->
+                        </div>
+                        
+                    
+                    <!-- Fin de la primera parte izquierda -->
+                </div>
+                <!-- Fin div de la Izquierda -->
+
+                <!-- Inicio div de la Derecha -->
+                <div class="columna-contacto">
+                    <h2>Escribeme</h2>
+                    <form>
+                    <div class="div-formulario">
+                        <div class="form-control">
+                        <label for="firstname">Nombre *</label>
+                        <input
+                            type="text"
+                            name="Nombre"
+                            id="firtsname"
+                            class="input-firtsname input-control"
+                            placeholder="Escribe tu nombre"
+                            aria-label="Nombre"
+                            required
+                        />
+                        <i
+                            class="far fa-times-circle icon-invalid"
+                            aria-hidden="true"
+                        ></i>
+                        <i
+                            class="far fa-check-circle icon-valid"
+                            aria-hidden="true"
+                        ></i>
+                        </div>
+                        <div class="form-control">
+                        <label for="lastname">Apellido *</label>
+                        <input
+                            type="text"
+                            name="Apellido"
+                            id="lastname"
+                            class="input-lastname input-control"
+                            placeholder="Escribe tu apellido"
+                            aria-label="Apellido"
+                            required
+                        />
+                        <i
+                            class="far fa-times-circle icon-invalid"
+                            aria-hidden="true"
+                        ></i>
+                        <i
+                            class="far fa-check-circle icon-valid"
+                            aria-hidden="true"
+                        ></i>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email *</label>
+                        <input
+                        type="email"
+                        name="Email"
+                        id="email"
+                        class="input-control"
+                        placeholder="escribe tu mail"
+                        aria-label="Email"
+                        required
+                        />
+                        <i
+                        class="far fa-times-circle icon-invalid"
+                        aria-hidden="true"
+                        ></i>
+                        <i
+                        class="far fa-check-circle icon-valid"
+                        aria-hidden="true"
+                        ></i>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Mensaje *</label>
+                        <textarea
+                        name="Mensaje"
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        class="input-control"
+                        placeholder="Escribe tu mensaje aquí"
+                        aria-label="Mensaje"
+                        required
+                        ></textarea>
+                        <i
+                        class="far fa-times-circle icon-invalid"
+                        aria-hidden="true"
+                        ></i>
+                        <i
+                        class="far fa-check-circle icon-valid"
+                        aria-hidden="true"
+                        ></i>
+                    </div>
+                    <button type="submit" class="button">
+                        Enviar
+                    </button>
+                    </form>
+                        </div>
+                <!-- Fin div de la Derecha -->
+
+            </section>
 
 
         
     </main>
+    <!-- Inico Footer -->
+    <footer>
+        <!-- Inicio navegación footer -->
+        <nav class="footer-nav">
+          <ul class="footer-nav-menu ul-footer">
+            <li class="footer-nav-item">
+              <a href="#sobre-mi" class="footer-nav-link">HOLA</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#conocimientos" class="footer-nav-link">CONOCIMIENTOS</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#proyectos" class="footer-nav-link">PROYECTOS</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#contacto" class="footer-nav-link">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Fin navegación footer -->
+        <ul class="footer-social-links ul-footer">
+          <li class="footer-social-item">
+            <a
+              href="https://twitter.com/ElenaBenalcazar"target="_blank"
+              class="footer-social-link twitter-link"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://github.com/ebenalcazar"target="_blank" class="footer-social-link github-link" aria-label="Github">
+              <i class="fab fa-github-alt footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a
+              href="https://www.linkedin.com/in/elena-benalcazar-rodas-6b51673b/"target="_blank"
+              class="footer-social-link linkedin-link"
+              aria-label="Linkedin"
+            >
+              <i class="fab fa-linkedin-in footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a href="mailto:elena_benalcazar_rodas@hotmail.com" class="footer-social-link email-link" aria-label="Email">
+              <i class="fas fa-envelope footer-social-icon"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="p-footer"> Hecho con ❤️ por Elena Benalcázar </p>
+      </footer>
+      <!-- Fin Footer -->
 </body>
 </html>

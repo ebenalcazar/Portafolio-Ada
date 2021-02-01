@@ -1,6 +1,7 @@
 .conocimientos{
     display: flex;
     flex-direction: column;
+    margin: 100px;
 }
 
 .titulo{
@@ -16,6 +17,8 @@ h2{
 .description{
     font-size: 16px;
     font-weight: normal;
+    padding: 0 30%;
+    color: #2e2e31;
 }
 
 
@@ -31,7 +34,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 25%;
     color: #29292b;
     background-color: rgb(243, 243, 243);
     border: 1px solid #dfcfe6;
@@ -40,26 +43,36 @@ h2{
     margin: 10px;
     
 }
+
+.skill:hover {
+    border: 1px solid #f893e6;
+    color: #f77de0;
+  }
+
 p{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
 }
+
 .icon{
     font-size: 5em;
-
-    
 }
+
 .quote{
-    height: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: #F77DE0; 
     color: white;
-    margin: 0%;
-    padding: 25%;
+
+   
+}
+.contenido{
+    margin: 5% 0;
+}
+.quote-text{
+    font-size: 1.5rem;
 }
 
 

@@ -14,16 +14,29 @@
     font-size: 30px;
     color: #2e2e31;
     margin: 0 0 5px;
+    text-align: left;
 }
 h1{
     color: #F77DE0;
     font-size: 60px;
 }
 .about-description{
+    font-weight: normal;
     font-size: 16px;
     color: #616161;
     margin: 16px 0px 40px;
 }
+.boton-projects {
+    background-color: #f77de0;
+    border-radius: 30px;
+    font-size: 1em;
+    color:white;
+    cursor: pointer;
+    padding: 3% 7%;
+  }
+.boton-projects:hover {
+    background-color: #fab2ed;
+  }
 img{
     display: block;
     width: 100%;

@@ -2,25 +2,32 @@
     box-sizing: border-box;
 }
 
+.right-shadow{
+   box-shadow: 2px 2px 5px #999; 
+}
+
 header {
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     position: fixed;
     top: 0%;
     background-color: white;
+    z-index: 1;
     
-  }
-  hr {
+}
+
+
+hr {
     border: 0; 
     height: 0; 
-    box-shadow: 0 1px 8px 1px rgb(240, 186, 228);}
-
+    box-shadow: 0 1px 20px 1px rgb(240, 186, 228);
+}
 
 li{
     list-style: none;
     
 }
-a{
+.a-header{
     text-decoration: none;
     color: black;
 }
@@ -33,9 +40,24 @@ ul{
 }
 .nav-li {
     padding: 10px;
-  }
-  .boton{
-      background-color:#f77de0;
-      border-radius: 30px;
+}
 
+.nav-link{
+    line-height: 2.5;
+}
+.nav-link:hover {
+    color: #f77de0;
   }
+
+.boton{
+    text-decoration: none;
+    color:white !important; 
+    background-color:#f77de0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10% 20%;
+    line-height: 2.5;   
+}
+.boton:hover {
+  background-color: #fab2ed;
+}

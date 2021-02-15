@@ -22,7 +22,6 @@
       *{font-family: Montserrat, sans-serif;}
       a:link, a:visited, a:active {
             text-decoration:none;
-
         }
        
     </style>
@@ -30,7 +29,7 @@
 </head>
 <body class="right-shadow">
     <!-- Inicio Header -->
-    <header>
+    <header class="right-shadow">
         <div>
             <nav>
                 <!-- Menú de navegación -->
@@ -65,14 +64,14 @@
                     <p class="saludo"> 
                         ¡Hola! Soy
                     </p>
-                    <h1> Elena Benalcázar</h1>
+                    <h1 class="name"> Elena Benalcázar</h1>
                     <p class="about-description"> 
                         Desarrolladora Frontend, profesional de hotelería y turismo, amante de los idiomas y las matemáticas
                     </p>
                     <br>
                     <a class="boton-projects" href="#proyectos">LO QUE HAGO</a>
                 </div>
-                <div>
+                <div class="about-img">
                     <img src="Images/undraw_proud_coder_7ain.svg" alt="">
                 </div>
             </section>
@@ -94,32 +93,34 @@
                 <br>
                 <br>
                 <br>
-                <div class="grilla">
-                    <div class="skill icon">
-                        <i class="devicon-html5-plain colored"></i> 
-                        <p>HTML 5</p>
+                <div class="container">
+                    <div class="grilla">
+                        <div class="skill icon">
+                            <i class="devicon-html5-plain colored"></i> 
+                            <p>HTML 5</p>
+                        </div>
+                        <div class="skill icon">
+                            <i class="devicon-css3-plain colored"></i>
+                            <p>CSS 3</p>
+                        </div>
+                        <div class="skill icon">
+                            <i class="devicon-sass-original colored"></i>
+                            <p>Sass</p>
+                        </div>
                     </div>
-                    <div class="skill icon">
-                        <i class="devicon-css3-plain colored"></i>
-                        <p>CSS 3</p>
-                    </div>
-                    <div class="skill icon">
-                        <i class="devicon-sass-original colored"></i>
-                        <p>Sass</p>
-                    </div>
-                </div>
-                <div class="grilla">
-                    <div class="skill icon">
-                        <i class="devicon-javascript-plain colored"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill icon">
-                        <i class="devicon-react-plain colored skill-icon"></i>
-                        <p>React</p>
-                    </div>
-                    <div class="skill icon">
-                        <i class="devicon-git-plain colored"></i>
-                        <p>GIT</p>
+                    <div class="grilla">
+                        <div class="skill icon">
+                            <i class="devicon-javascript-plain colored"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill icon">
+                            <i class="devicon-react-plain colored skill-icon"></i>
+                            <p>React</p>
+                        </div>
+                        <div class="skill icon">
+                            <i class="devicon-git-plain colored"></i>
+                            <p>GIT</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -181,7 +182,7 @@
                                 <p class="project-name">Todo app</p>
                             </div>
                             <div class="project">
-                                <img src="/Images/undraw_movie_night_fldd.svg" alt="Buscador de películas">
+                                <img class="img-project" src="/Images/undraw_movie_night_fldd.svg" alt="Buscador de películas">
                                 <p class="project-name">Buscador de películas</p>
                             </div>
                         
@@ -195,7 +196,7 @@
                 <!-- Inicio div de la Izquierda -->
                 <div class="columna-contacto">
                    
-                    <div>
+                    <div class="container1">
                         <!-- Inico de la primera parte izquierda arriba -->
                         <h2>
                             Contactame
@@ -205,7 +206,7 @@
                         </p>
                         <!-- Fin de la primera parte izquierda arriba -->
                         <!-- Inico de la segunda parte izquierda abajo -->
-                        <div>
+                        <div class="container2">
                             <ul>
                                 <li>
                                     <a

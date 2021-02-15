@@ -2,7 +2,7 @@
     display: flex;
     text-align: left;
     background-color: #ffffff;
-    padding: 40px 60px;
+    padding: 2.5em 3.7em;
     border-radius: 15px;
     border: 1px solid #e0e0e0;
 }
@@ -11,7 +11,7 @@
 }
 
 .contact {
-    margin: 300px 100px 150px;
+    margin: 18.7em 6.2em 9.3em;
 }
 .p-descripcion-contacto {
     font-weight: normal;
@@ -32,7 +32,7 @@ padding: 1.5%;
 .contact-social-link {
 display: flex;
 align-items: center;
-padding: 10px 10px;
+padding: 0.6em;
 border-radius: 100px;
 transition: 0.2s;
 color: #2e2e31;
@@ -47,7 +47,7 @@ color: #f77de0;
 border-radius: 50%;
 font-size: 1.2rem;
 line-height: 2.2rem;
-margin-right: 10px;
+margin-right: 0.6em;
 text-align: center;
 transition: 0.2s;
 }
@@ -57,24 +57,24 @@ display: flex;
 }
 
 .form-control {
-margin-bottom: 15px;
+margin-bottom: 0.9em;
 flex-grow: 1;
 position: relative;
 }
 
 .div-formulario .form-control:nth-of-type(1) {
-margin-right: 10px;
+margin-right: 0.6em;
 }
 
 .div-formulario .form-control:nth-of-type(2) {
-margin-left: 10px;
+margin-left: 0.6em;
 }
 
 label {
-margin-bottom: 10px;
+margin-bottom: 0.6em;
 display: block;
 font-weight: 600;
-margin-top: 5px;
+margin-top: 0.3em;
 }
 
 input:valid:focus,
@@ -109,7 +109,7 @@ textarea {
   background-color: #f6f7fb;
   border: 1px solid #f3efef;
   font-size: var(--text-sm);
-  padding: 10px 15px;
+  padding: 0.6em 0.9em;
   display: block;
   width: 100%;
   outline: none;
@@ -128,4 +128,36 @@ button {
   }
   .button:hover {
     background-color: #fab2ed;
+  }
+  @media screen and (max-width: 576px){
+      .contact{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: 0;
+        padding: 0 0 15% 20%;
+      }
+      .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 0 80%;
+      }
+      .p-descripcion-contacto {
+        text-align: center;
+        margin: 0;
+        padding: 10% 0 0 10%;
+    }
+    .container2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 0 0 500%;
+    }
+    .div-formulario {
+      flex-direction: column;
+    }
+  
+    
   }

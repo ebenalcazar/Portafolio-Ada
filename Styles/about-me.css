@@ -8,6 +8,7 @@
 
 .div-saludo{
     padding-right: 12.5em;
+    padding-bottom: 2em;
 }
 
 .saludo{
@@ -21,6 +22,7 @@ h1{
     font-size: 3.75rem;
 }
 .about-description{
+    text-align: left;
     font-weight: normal;
     font-size: 1rem;
     color: #616161;
@@ -33,6 +35,7 @@ h1{
     color:white;
     cursor: pointer;
     padding: 3% 7%;
+    margin-left: 3em;
   }
 .boton-projects:hover {
     background-color: #fab2ed;
@@ -59,7 +62,8 @@ img{
     .saludo{
         justify-content: center;
         text-align: center;
-        font-size: 2rem;   
+        font-size: 2rem; 
+        padding-bottom: 2em;  
     }
     .name{
         text-align: center;
@@ -67,9 +71,16 @@ img{
     }
 
     .about-img{
-        width: 100vw;
-        margin-top: 5em;
+       margin-top: 5em;
        }
+    .boton-projects {
+        margin-left: 1em;
+    }
+    img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 65%;
+    }
 }
 
 

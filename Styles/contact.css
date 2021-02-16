@@ -135,7 +135,9 @@ button {
     .contact{
       flex-direction: column;
       align-items: center;
-      width: 70vw;
+      width: 100vw;
+      padding: 0;
+      margin-top: 0;
     }
     .titulo-contacto{
       font-size: 1rem;

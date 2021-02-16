@@ -79,7 +79,9 @@ p{
 }
 
 @media(max-width: 500px) {
-
+    .description{
+        padding: 0;
+    }
     .skill{
         width: auto;
     }

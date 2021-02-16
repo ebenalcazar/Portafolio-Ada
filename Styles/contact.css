@@ -5,14 +5,12 @@
     padding: 2.5em 3.7em;
     border-radius: 15px;
     border: 1px solid #e0e0e0;
+    margin: 18.7em 6.2em 9.3em;
 }
 .columna-contacto {
     width: 50%;
 }
 
-.contact {
-    margin: 18.7em 6.2em 9.3em;
-}
 .p-descripcion-contacto {
     font-weight: normal;
     padding: 0 25% 5% 0;
@@ -54,6 +52,7 @@ transition: 0.2s;
 
 .div-formulario {
 display: flex;
+flex-wrap: wrap;
 }
 
 .form-control {
@@ -130,34 +129,26 @@ button {
     background-color: #fab2ed;
   }
   @media screen and (max-width: 576px){
-      .contact{
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        margin: 0;
-        padding: 0 0 15% 20%;
-      }
-      .container1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 0 0 80%;
-      }
-      .p-descripcion-contacto {
-        text-align: center;
-        margin: 0;
-        padding: 10% 0 0 10%;
+    *{
+      overflow-x: hidden;
     }
-    .container2{
-      display: flex;
+    .contact{
       flex-direction: column;
-      justify-content: center;
-      padding: 0 0 0 500%;
+      align-items: center;
+      width: 70vw;
     }
+    .titulo-contacto{
+      font-size: 1rem;
+    }
+    .lista-contacto{
+      font-size: 0.6rem;
+      padding: 0;
+    }
+
     .div-formulario {
-      flex-direction: column;
+    flex-direction: column;
     }
+   
   
     
   }

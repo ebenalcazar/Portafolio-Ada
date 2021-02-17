@@ -54,8 +54,11 @@
 @media (max-width: 550px) {
     .grilla-proyectos{
         flex-direction: column;
+        padding-left: 1em;
     }
     .project {
         width: 100%;
     }
+    .p-proyectos{
+        padding: 5%;
 }

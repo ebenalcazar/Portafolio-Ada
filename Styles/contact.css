@@ -107,7 +107,7 @@ textarea {
   border-radius: 20px;
   background-color: #f6f7fb;
   border: 1px solid #f3efef;
-  font-size: var(--text-sm);
+  font-size: 1em;
   padding: 0.6em 0.9em;
   display: block;
   width: 100%;
@@ -135,9 +135,12 @@ button {
     .contact{
       flex-direction: column;
       align-items: center;
-      width: 100vw;
-      padding: 0;
+      width: 80vw;
+      padding: 2em 0 2em 0;
       margin-top: 0;
+    }
+    .p-descripcion-contacto {
+      padding: 0;
     }
     .titulo-contacto{
       font-size: 1rem;
@@ -150,7 +153,11 @@ button {
     .div-formulario {
     flex-direction: column;
     }
-   
+
+    input,
+    textarea {
+      font-size: 0.7em;
+    }
   
     
   }

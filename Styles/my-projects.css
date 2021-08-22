@@ -7,8 +7,10 @@
     margin: 9em auto;
 }
 .grilla-proyectos{
+    /* innecesario */
     width: 100%;
     display: flex;
+    /* innecesario */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -43,6 +45,7 @@
     margin-top: 1.2em;
   }
   
+  /* estas clases no existen en tu html  */
   .arriba{
       display: flex;
   }

@@ -61,6 +61,8 @@ flex-grow: 1;
 position: relative;
 }
 
+/* por que aca son dos selectores si hacen lo mismo???
+Esta asi en el css de Ada, pero es un error allá y es un error aquí */
 .div-formulario .form-control:nth-of-type(1) {
 margin-right: 0.6em;
 }
@@ -130,6 +132,9 @@ button {
   }
   @media screen and (max-width: 576px){
     *{
+      /* esto es un parche. hay un elemento de tu pagina que, por su margin, padding o width, 
+      esta rebalsando su contenedor en celulares
+      Lo correcto es encontrar ese elemento y corregir el estilo, no tapar ese error  */
       overflow-x: hidden;
     }
     .contact{

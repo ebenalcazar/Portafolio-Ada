@@ -18,6 +18,7 @@ h2{
 
 .description{
     font-size: 1rem;
+    /* innecesario */
     font-weight: normal;
     padding: 0 30%;
     color: #2e2e31;
@@ -26,6 +27,7 @@ h2{
 
 .grilla{
     display: flex;
+    /* innecesario */
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;

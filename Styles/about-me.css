@@ -15,6 +15,7 @@
     font-size: 3.75rem;
     color: #2e2e31;
     margin: 0 0 0.3em;
+    /* innecesario, es asi por defecto */
     text-align: left;
 }
 h1{
@@ -22,7 +23,9 @@ h1{
     font-size: 3.75rem;
 }
 .about-description{
+    /* innecesario */
     text-align: left;
+    /* innecesario */
     font-weight: normal;
     font-size: 1rem;
     color: #616161;
@@ -40,7 +43,9 @@ h1{
 .boton-projects:hover {
     background-color: #fab2ed;
   }
+  /* ojo, con esto *todas* las imagenes de tu tp van a medir 40vw! */
 img{
+    /* innecesario */
     display: block;
     width: 40vw;
 }
